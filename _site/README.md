@@ -1,6 +1,6 @@
 # _smash community_
 
-#### _A website about candy_
+#### _A website about super smash brothers_
 
 #### By _**colorlessenergy**_
 
