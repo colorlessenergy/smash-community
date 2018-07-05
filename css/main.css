@@ -1,7 +1,7 @@
 ---
 ---
 
-/* css styles are organized by styles on text then layout */
+/* css styles are organized by typography then layout */
 
 
 {% include_relative base.css %}

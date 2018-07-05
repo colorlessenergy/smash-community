@@ -1,4 +1,4 @@
-/* css styles are organized by styles on text then layout */
+/* css styles are organized by typography then layout */
 
 
 * {
@@ -27,7 +27,7 @@ ul li {
   margin: 0 10px;
 }
 header {
-  background-image: url('../img/evo-smash.jpg');
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .6)), to(rgba(0, 0, 0, .3))), url(../img/evo-smash.jpg);
   text-align: center;
 
   height: 85vh;
@@ -43,4 +43,29 @@ header {
 
 .nav__item {
   margin: 0 80px;
+}
+
+.hero {
+  color: #fff;
+}
+
+.hero__title {
+  font-size: 60px;
+
+  margin: 0;
+}
+
+.hero__subtitle {
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.hero__cta {
+  background-color: teal;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  padding: 10px 15px;
 }
