@@ -32,3 +32,36 @@
 
   padding: 10px 15px;
 }
+
+.text {
+  background-color: #f5deb3;
+  margin: 100px 0;
+  max-width: 800px;
+  padding: 50px;
+}
+
+.text__content {
+  line-height: 1.5;
+}
+
+.text__title {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin: 20px 0;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.subtitle__head {
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.subtitle__content {
+  font-weight: 300;
+  margin: 10px 0;
+}

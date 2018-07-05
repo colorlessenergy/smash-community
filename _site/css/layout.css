@@ -1,9 +1,28 @@
+/* to make it not stretch on bigger screens */
+
+.contain {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+
 header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .6)), to(rgba(0, 0, 0, .3))), url(../img/evo-smash.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .9)), to(rgba(0, 0, 0, .6))), url(../img/evo-smash.jpg);
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   height: 85vh;
   align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  align-items: center;
+  background-image: url(../img/smash-event.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
 }

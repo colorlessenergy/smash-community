@@ -26,12 +26,31 @@ ul li {
   display: inline-block;
   margin: 0 10px;
 }
+/* to make it not stretch on bigger screens */
+
+.contain {
+  max-width: 1360px;
+  margin: 0 auto;
+}
+
+
 header {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .6)), to(rgba(0, 0, 0, .3))), url(../img/evo-smash.jpg);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .9)), to(rgba(0, 0, 0, .6))), url(../img/evo-smash.jpg);
   text-align: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 
   height: 85vh;
   align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.about {
+  align-items: center;
+  background-image: url(../img/smash-event.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: center;
 }
@@ -68,4 +87,37 @@ header {
   text-transform: uppercase;
 
   padding: 10px 15px;
+}
+
+.text {
+  background-color: #f5deb3;
+  margin: 100px 0;
+  max-width: 800px;
+  padding: 50px;
+}
+
+.text__content {
+  line-height: 1.5;
+}
+
+.text__title {
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.subtitle {
+  margin: 20px 0;
+  padding: 20px 10px;
+  text-align: center;
+}
+
+.subtitle__head {
+  font-size: 40px;
+  letter-spacing: 1px;
+  margin: 10px 0;
+}
+
+.subtitle__content {
+  font-weight: 300;
+  margin: 10px 0;
 }
