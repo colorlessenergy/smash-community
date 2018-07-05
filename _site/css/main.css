@@ -1,10 +1,46 @@
+/* css styles are organized by styles on text then layout */
+
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  margin: 0;
   font-family: 'Ubuntu', sans-serif;
+
+  margin: 0;
 }
 
+nav {
+  background-color: #212121;
+  color: #fff;
 
+  height: 70px;
+}
+
+ul {
+  padding: 0;
+}
+
+ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+header {
+  background-image: url('../img/evo-smash.jpg');
+  text-align: center;
+
+  height: 85vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__item {
+  margin: 0 80px;
+}
