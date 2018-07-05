@@ -1,0 +1,9 @@
+.nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__item {
+  margin: 0 80px;
+}

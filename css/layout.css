@@ -1,0 +1,9 @@
+header {
+  background-image: url('../img/evo-smash.jpg');
+  text-align: center;
+
+  height: 85vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}

@@ -1,6 +1,9 @@
 ---
 ---
 
+/* css styles are organized by styles on text then layout */
+
+
 {% include_relative base.css %}
 {% include_relative layout.css %}
 {% include_relative module.css %}
