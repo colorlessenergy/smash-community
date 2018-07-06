@@ -8,10 +8,11 @@
 
 header {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .9)), to(rgba(0, 0, 0, .6))), url(../img/evo-smash.jpg);
-  text-align: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-attachment: fixed;
 
+  text-align: center;
   height: 85vh;
   align-items: center;
   display: flex;
@@ -47,6 +48,29 @@ header {
 
 .gallery__img {
   width: 100%;
+}
+
+.community {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.community__about {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+  margin: 30px;
+}
+
+.contact {
+  background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .6)), url(../img/smash-event-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: #fff;
+  text-align: center;
+  padding: 80px 0;
+  margin: 30px 0;
 }
 
 @media screen and (max-width: 961px) {

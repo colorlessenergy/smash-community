@@ -63,6 +63,7 @@
   font-size: 40px;
   letter-spacing: 1px;
   margin: 10px 0;
+  text-transform: uppercase;
 }
 
 .subtitle__content {
