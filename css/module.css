@@ -14,8 +14,12 @@
 
 .hero__title {
   font-size: 60px;
-
   margin: 0;
+}
+
+.hero__link {
+  margin: 0;
+  margin-top: 50px;
 }
 
 .hero__subtitle {
@@ -46,6 +50,7 @@
 
 .text__title {
   letter-spacing: 1px;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -73,4 +78,14 @@
 
 .subtitle--color {
   color: #fff;
+}
+
+.footer {
+  background-color: #222;
+  padding: 20px 0;
+}
+
+.footer__p {
+  color: #fff;
+  text-align: center;
 }
