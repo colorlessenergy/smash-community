@@ -26,3 +26,37 @@ header {
   display: flex;
   justify-content: center;
 }
+
+.carousel {
+  display: flex;
+}
+
+.carousel img {
+  width: 33%;
+  margin: 0 10px;
+}
+
+.events {
+  background-color: teal;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(446px, 1fr));
+}
+
+.gallery__img {
+  width: 100%;
+}
+
+@media screen and (max-width: 961px) {
+  .carousel {
+    flex-direction: column;
+  }
+
+  .carousel img {
+    width: 90%;
+    margin: 15px;
+  }
+
+}
