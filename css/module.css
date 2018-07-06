@@ -49,6 +49,10 @@
   text-transform: uppercase;
 }
 
+.more-info {
+  padding: 30px;
+}
+
 .subtitle {
   margin: 20px 0;
   padding: 20px 10px;
@@ -64,4 +68,8 @@
 .subtitle__content {
   font-weight: 300;
   margin: 10px 0;
+}
+
+.subtitle--color {
+  color: #fff;
 }
