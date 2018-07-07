@@ -41,7 +41,7 @@
   background-color: #f5deb3;
   margin: 100px 0;
   max-width: 800px;
-  padding: 50px;
+  padding: 100px;
 }
 
 .text__content {
@@ -78,6 +78,34 @@
 
 .subtitle--color {
   color: #fff;
+}
+
+
+.event {
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+.event__contain {
+  background-color: #fff;
+  padding: 60px 100px;
+  width: 70%;
+}
+
+.event__price {
+  margin: 5px 0 50px 0;
+}
+
+.event__title {
+  font-size: 30px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 0;
 }
 
 .footer {

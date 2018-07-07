@@ -1,1 +1,6 @@
-baseurl: /
+baseurl: /smash-community
+
+collections:
+  events:
+    output: true
+    permalink: /events/:path

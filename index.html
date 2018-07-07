@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include header.html %}
+
 <section class="about">
   <div class="text">
     <h2 class="text__title">about us</h2>
@@ -34,11 +36,11 @@ layout: default
     <p class="subtitle__content">want to go to an event?!?!!?</p>
   </div>
   <div class="gallery">
-      <img class="gallery__img" src="{{ site.baseurl }}/img/smash-event.jpg" alt="smash event">
-      <img class="gallery__img" src="{{ site.baseurl }}/img/smash-event.jpg" alt="smash event">
-      <img class="gallery__img" src="{{ site.baseurl }}/img/smash-event.jpg" alt="smash event">
-      <img class="gallery__img" src="{{ site.baseurl }}/img/smash-event.jpg" alt="smash event">
-  </div>
+    {% for page in site.events %}
+      <a href="{{ page.url }}">
+        <img class="gallery__img" src="{{ site.baseurl }}{{ page.img }}" alt="smash event">
+      </a>
+      {% endfor %}
 </section>
 <section class="community">
   <div class="subtitle">
@@ -90,8 +92,4 @@ layout: default
 <!--End mc_embed_signup-->
   </div>
 </section>
-
-<footer class="footer">
-  <p class="footer__p">&copy; by Brian. created with love &lt;3 </p>
-</footer>
 

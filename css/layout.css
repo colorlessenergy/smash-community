@@ -110,6 +110,12 @@ header {
   input[type="submit"] {
     width: 80%;
   }
+
+  .event__contain {
+    padding: 20px;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 400px) {
