@@ -1,3 +1,7 @@
+---
+---
+
+
 /* to make it not stretch on bigger screens */
 
 .contain {
@@ -47,8 +51,36 @@ header {
 }
 
 .gallery__img {
+  align-items: center;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 374px;
   width: 100%;
 }
+
+.gallery__title {
+  color: #fff;
+}
+
+.gallery__content {
+  display: none;
+}
+
+.gallery__img:hover .gallery__content {
+  display: block;
+}
+
+{% for page in site.events %}
+  .gallery__img{{forloop.index}} {
+    background-image: url({{ page.img }});
+  }
+
+  .gallery__img{{forloop.index}}:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .3)), url({{ page.img }});
+  }
+{% endfor %}
+
 
 .community {
   margin: 10px 0;

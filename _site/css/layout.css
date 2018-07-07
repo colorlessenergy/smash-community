@@ -47,8 +47,60 @@ header {
 }
 
 .gallery__img {
+  align-items: center;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  height: 374px;
   width: 100%;
 }
+
+.gallery__title {
+  color: #fff;
+}
+
+.gallery__content {
+  display: none;
+}
+
+.gallery__img:hover .gallery__content {
+  display: block;
+}
+
+
+  .gallery__img1 {
+    background-image: url(/img/smash-event.jpg);
+  }
+
+  .gallery__img1:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .3)), url(/img/smash-event.jpg);
+  }
+
+  .gallery__img2 {
+    background-image: url(/img/smash-event.jpg);
+  }
+
+  .gallery__img2:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .3)), url(/img/smash-event.jpg);
+  }
+
+  .gallery__img3 {
+    background-image: url(/img/smash-event.jpg);
+  }
+
+  .gallery__img3:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .3)), url(/img/smash-event.jpg);
+  }
+
+  .gallery__img4 {
+    background-image: url(/img/smash-event.jpg);
+  }
+
+  .gallery__img4:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .3)), url(/img/smash-event.jpg);
+  }
+
+
 
 .community {
   margin: 10px 0;
