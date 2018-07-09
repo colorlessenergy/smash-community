@@ -17,3 +17,15 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Price", name: "price", widget: "number", required: true}
       - {label: "Body", name: "body", widget: "markdown"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
+  - name: "pages"
+    label: "Pages"
+    files:
+      - file: "index.md"
+        label: "Home Page"
+        name: "home"
+        fields: 
+          - {label: "About", name: "about", widget: "list", fields: [
+              { label: "Title", name: "title", widget: "string" },
+              { label: "paragraph1", name: "paragraph1", widget: "text" },
+              { label: "paragraph2", name: "paragraph2", widget: "text" }                                   
+          ]}
