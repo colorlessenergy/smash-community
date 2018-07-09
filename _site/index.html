@@ -7,6 +7,7 @@
   <title>smash community!</title>
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="/css/main.css">
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
   <div class="contain">
@@ -154,5 +155,19 @@
   <p class="footer__p">&copy; by Brian. created with love &lt;3 </p>
 </footer>
   </div>
+
+  <!-- to redirect the netlify cms login -->
+
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", user => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
 </body>
 </html>

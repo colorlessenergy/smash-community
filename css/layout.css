@@ -73,11 +73,11 @@ header {
 
 {% for page in site.events %}
   .gallery__img{{forloop.index}} {
-    background-image: url({{ site.baseurl }}{{ page.img }});
+    background-image: url({{ site.baseurl }}{{ page.thumbnail }});
   }
 
   .gallery__img{{forloop.index}}:hover {
-    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .3)), url({{ site.baseurl }}{{ page.img }});
+    background-image: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .3)), url({{ site.baseurl }}{{ page.thumbnail }});
   }
 {% endfor %}
 
